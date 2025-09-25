@@ -16,6 +16,11 @@ I do not make a script to fix this all, as within bash I often have issues enabl
 
 > ⚠️ **Warning:** If you use the CUDA Toolkit for other applications, switching `nvcc` or installing a different cuda-toolkit might break their build process.
 
+If you are running Ubuntu 24.04 and Cuda 12.8 like me, you can also try installing the wheel I added in this repo.
+```bash
+pip install sageattention-2.2.0-cp312-cp312-linux_x86_64.whl
+```
+
 ## 1 - Checking Cuda versions
 
 SageAttention has to be built again and it requires Cuda Toolkit 12.4 at least.
