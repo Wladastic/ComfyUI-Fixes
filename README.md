@@ -42,9 +42,9 @@ This tells you which Torch and which Cuda-Toolkit version you have installed.
 Cuda Toolkit should return 12.4 at minimum.
 For me I had Cuda 12.8 installed, but nvcc was at Version 12.0.
 
-You can check which cuda-12 versions you have installed with:
+You can check which cuda versions you have installed with:
 ``` bash
-ls /usr/local/ | grep cuda-12
+ls /usr/local/ | grep cuda
 ```
 It should at least return 12-4, for me its 12.8 and 12.9
 
